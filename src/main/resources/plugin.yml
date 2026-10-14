@@ -1,0 +1,16 @@
+name: Lifesteal
+version: 1.0.0
+main: dev.lifesteal.LifestealPlugin
+api-version: '26.2'
+description: Lifesteal + 3 unique one-of-a-kind axes
+commands:
+  withdraw:
+    description: Turn some of your hearts into a Heart item
+    usage: /withdraw [amount]
+  lifesteal:
+    description: Lifesteal admin command
+    usage: /lifesteal <get|set|add|remove|revive|give|reset|status> ...
+    permission: lifesteal.admin
+permissions:
+  lifesteal.admin:
+    default: op

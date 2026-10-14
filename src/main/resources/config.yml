@@ -1,0 +1,17 @@
+hearts:
+  start: 10               # starting hearts
+  max: 20                 # max hearts; extra hearts you'd gain come as Heart items
+  lose-on-any-death: true # false = only lose hearts when killed by a player
+  revive-hearts: 5        # hearts a revived / unbanned player comes back with
+  min-after-withdraw: 1   # /withdraw can never take you below this
+
+elimination:
+  ban-message: "You ran out of hearts!"
+
+weapons:
+  block-containers: true  # weapons can't go in chests, echests, shulkers, bundles, item frames, trades...
+  unbreakable: false      # false = they can break/burn/despawn, which frees the recipe again
+  lifestealer:
+    hearts-stolen: 3
+  armor_breaker:
+    durability-multiplier: 3
